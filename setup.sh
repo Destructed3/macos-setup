@@ -1,3 +1,11 @@
+echo ===Set Settings
+# Activate character repeat if you keep pressing a button
+defaults write -g ApplePressAndHoldEnabled -bool false 
+# Enable Rightclick
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
+# Set Scroll direction
+defaults write -g com.apple.swipescrolldirection -bool FALSE
+
 echo ===Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
