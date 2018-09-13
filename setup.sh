@@ -34,8 +34,8 @@ echo ===Install ValetPlus
 composer global require weprovide/valet-plus
 
 echo ===Update zsh to use composer
-echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.zshrc 
-echo source ~/.zshrc
+'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.zshrc 
+source ~/.zshrc
 
 echo ===Start Homebrew Services
 brew services start mariadb
