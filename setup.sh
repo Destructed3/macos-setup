@@ -15,10 +15,10 @@ echo ===Install Casks
 brew cask install \
     caskroom/versions/firefox-developer-edition \
     opera vivaldi google-chrome \
-    visual-studio-code sublime-text \
-    iterm2 \
-    cyberduck filezilla sequel-pro \
-    adobe-acrobat-reader libreoffice shiftit keepassxc skype
+    visual-studio-code iterm2 \
+    filezilla sequel-pro sourcetree \
+    adobe-acrobat-reader libreoffice shiftit keepassxc \
+    slack skype \
 
 echo ===Cleanup MacOS PHP
 brew remove --force --ignore-dependencies httpd
